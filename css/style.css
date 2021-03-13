@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.contents{
+    width: 100%;
+    height: 530px;
+    background-color:rgb(32, 134, 32);
+    border-top: 80px solid rgb(38, 231, 24);
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.col:nth-child(1){
+    width: 30%;
+    background-image: url("https://www.elcolombiano.com/documents/10157/0/1200x627/0c0/0d0/none/11101/HTVC/image_content_31203310_20180609225723.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 10px;
+    
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col:nth-child(2){
+    width: 30%;
+    background-image: url("https://thumb.resfu.com/media/img_news/el-tifo-que-se-mostro-antes-del-atletico-nacional-penarol--twitter.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    width: 420px;
+    margin: 10px;
+    border-radius: 25px 25px 0px 0px;    
+}
+
+.col:nth-child(3){
+    width: 30%;
+    background-image: url("https://i.ytimg.com/vi/SNo3UfruT5U/maxresdefault.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    width: 420px;
+    margin: 10px;
+    border-radius: 25px 25px 0px 0px;    
+}
+
+.col h2{
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: white;
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 240px;    
+}
+
+.col button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
